@@ -51,16 +51,12 @@
 .gradient {
   background: -webkit-linear-gradient(#ffffff, #f1f1f1);
   /* For Safari */
-
   background: -o-linear-gradient(#ffffff, #f1f1f1);
   /* For Opera 11.1 to 12.0 */
-
   background: -moz-linear-gradient(#ffffff, #f1f1f1);
   /* For Firefox 3.6 to 15 */
-
   background: linear-gradient(#ffffff, #f1f1f1);
   /* Standard syntax (must be last) */
-
 }
 .wrapper-size {
   margin: 0 auto;
@@ -246,10 +242,8 @@ nav ul {
   list-style-image: none;
   position: relative;
   /* fix ie */
-
   zoom: 1;
   /* fix ie */
-
 }
 nav ul:after {
   content: "";
@@ -467,9 +461,6 @@ footer p {
   display: none;
 }
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  
-}
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
@@ -566,4 +557,12 @@ footer p {
     padding-left: 2em;
     padding-right: 2em;
   }
+}
+/* Reposition Live Search box */
+.LSBox {
+  position: relative;
+}
+#LSResult {
+  z-index: 100;
+  margin: inherit;
 }
