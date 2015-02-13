@@ -558,11 +558,14 @@ footer p {
     padding-right: 2em;
   }
 }
-/* Reposition Live Search box */
+/* Reposition Live Search Box */
 .LSBox {
   position: relative;
 }
 #LSResult {
   z-index: 100;
   margin: inherit;
+}
+div#btnav * .submenu {
+  display: none;
 }

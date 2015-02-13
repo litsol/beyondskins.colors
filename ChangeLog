@@ -1,3 +1,7 @@
+2015-02-13  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* style.less (div#btnav * .submenu): Obviate webcouturier.dropdownmenu.
+
 2015-02-03  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* index.html: Added CWI logo to footer.
