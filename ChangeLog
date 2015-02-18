@@ -1,3 +1,8 @@
+2015-02-18  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* style.css (object.viewembededfile): Resize embedded pdf viewer I
+	just added to the file_view page template.
+
 2015-02-13  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* style.less (div#btnav * .submenu): Obviate webcouturier.dropdownmenu.
