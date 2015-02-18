@@ -558,7 +558,7 @@ footer p {
     padding-right: 2em;
   }
 }
-/* Reposition Live Search box */
+/* Reposition Live Search Box */
 .LSBox {
   position: relative;
 }
@@ -566,3 +566,9 @@ footer p {
   z-index: 100;
   margin: inherit;
 }
+/* Resize embedded PDF viewer */
+object.viewembededfile {
+  height: 1200px;
+  width: 100%;
+}
+/* finis */
