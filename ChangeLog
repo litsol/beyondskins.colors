@@ -1,3 +1,15 @@
+2015-02-24  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* style.less: Remove recent customizations
+
+	* style.css: Remove recent customizations
+
+	* style-cwi.less: New. Move recent customizations into a separate file.
+
+	* style-cwi.css: New.
+
+	* index.html: Use new style-cwi.css file.
+
 2015-02-18  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* style.css (object.viewembededfile): Resize embedded pdf viewer I
